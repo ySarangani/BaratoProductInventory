@@ -1,0 +1,41 @@
+gitignore
+# Build and Binaries
+[Bb]in/
+[Oo]bj/
+*.csproj.user
+*.filtered
+*.suo
+
+# Package Management (NuGet)
+packages/
+*.nuget.g.props
+*.nuget.g.targets
+*.log
+*.opendb
+
+# Other IDE/Tooling files
+.vs/
+.vscode/
+*.swp
+*.swo
+*.bak
+*.user
+*.vssscc
+.idea/
+
+# Generated Files
+TestResults/
+Publish/
+*.pdb
+*.local.settings.json
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Added based on user request
+.env
+*.db
+.idx/
+airules.md
+dev.nix

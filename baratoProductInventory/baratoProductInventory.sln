@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{00E553CA-3E89-46A9-A95F-E98599825F41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaratoProductInventory.API", "src\BaratoProductInventory.API\BaratoProductInventory.API.csproj", "{8766CC21-C070-4DF4-8C7D-E5E14FC96464}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaratoProductInventory.Blazor", "src\BaratoProductInventory.Blazor\BaratoProductInventory.Blazor.csproj", "{9971B704-2EB9-4FEB-9406-FE83DDD0A185}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaratoProductInventory.Core", "src\BaratoProductInventory.Core\BaratoProductInventory.Core.csproj", "{F30D9C20-A1C9-45FA-A08F-29F7BDB49D01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaratoProductInventory.Infrastructure", "src\BaratoProductInventory.Infrastructure\BaratoProductInventory.Infrastructure.csproj", "{791B949E-7475-46B5-8409-EA853B430255}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{C654B829-185F-4371-8C8D-27CD0D3A5B4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaratoProductInventory.Tests", "tests\BaratoProductInventory.Tests\BaratoProductInventory.Tests.csproj", "{F99E6F71-16D1-4BE7-939B-2302952196F9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8766CC21-C070-4DF4-8C7D-E5E14FC96464}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8766CC21-C070-4DF4-8C7D-E5E14FC96464}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8766CC21-C070-4DF4-8C7D-E5E14FC96464}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8766CC21-C070-4DF4-8C7D-E5E14FC96464}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9971B704-2EB9-4FEB-9406-FE83DDD0A185}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9971B704-2EB9-4FEB-9406-FE83DDD0A185}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9971B704-2EB9-4FEB-9406-FE83DDD0A185}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9971B704-2EB9-4FEB-9406-FE83DDD0A185}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F30D9C20-A1C9-45FA-A08F-29F7BDB49D01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F30D9C20-A1C9-45FA-A08F-29F7BDB49D01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F30D9C20-A1C9-45FA-A08F-29F7BDB49D01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F30D9C20-A1C9-45FA-A08F-29F7BDB49D01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{791B949E-7475-46B5-8409-EA853B430255}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{791B949E-7475-46B5-8409-EA853B430255}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{791B949E-7475-46B5-8409-EA853B430255}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{791B949E-7475-46B5-8409-EA853B430255}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F99E6F71-16D1-4BE7-939B-2302952196F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F99E6F71-16D1-4BE7-939B-2302952196F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F99E6F71-16D1-4BE7-939B-2302952196F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F99E6F71-16D1-4BE7-939B-2302952196F9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8766CC21-C070-4DF4-8C7D-E5E14FC96464} = {00E553CA-3E89-46A9-A95F-E98599825F41}
+		{9971B704-2EB9-4FEB-9406-FE83DDD0A185} = {00E553CA-3E89-46A9-A95F-E98599825F41}
+		{F30D9C20-A1C9-45FA-A08F-29F7BDB49D01} = {00E553CA-3E89-46A9-A95F-E98599825F41}
+		{791B949E-7475-46B5-8409-EA853B430255} = {00E553CA-3E89-46A9-A95F-E98599825F41}
+		{F99E6F71-16D1-4BE7-939B-2302952196F9} = {C654B829-185F-4371-8C8D-27CD0D3A5B4F}
+	EndGlobalSection
+EndGlobal
